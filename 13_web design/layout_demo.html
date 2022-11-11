@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>苡馨 Resume</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+    <link rel="stylesheet" href="05.css">
+    <style>
+      nav{
+        font-family: "Segoe Script";
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <h1>My Resume </h1>
+    </header>
+
+    <nav>
+      <a href="#introduction">Introduction</a>
+      <a href="#ski">Skills</a>
+      <a href="#pro">Projects</a>
+      <a href="#exp">Experiences</a>
+      <a href="#bg">Background</a>
+    </nav>
+
+    <main>
+      <article>
+        <section class="card" id="introduction">
+          <h2>Introduction</h2>
+          <img src="image/LINE_ALBUM_221104(1).jpg" width="200" height="200" style="border-radius:50%;float: left;padding: 20px;"/>
+          <img src="image/螢幕擷取畫面 2022-11-11 060955.png" class="zoom" width="350" height="200" style="float: right;padding: 10px;">
+          <p>
+             <ul id="id_ul">
+               <li> 翁苡馨   YI-SHIN WENG </li><br>
+               <li>2003 / 06 / 30 || Cancer </li><br>
+               <li> Chung Yuan Christian University </li><br>
+               <li>Dept. of Information Management || Dept. of Accounting</li><br>
+               <li> Taiwan New Tapei</li><br>
+              </ul>
+          </p>
+        </section>
+
+
+        <section class="card" id="ski">
+          <h2>Skills</h2>
+          <ul id="card_ul">
+            <li>
+              <div class="box">
+                <div class="skillname">Css</div>
+                <p style="font-size: 22px;color: lightgrey;">75%</p>
+              </div>
+              <div class="loading">
+                <div id="sk1"></div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <div class="skillname">HTML</div>
+                <p style="font-size: 22px; color: lightgrey;">75%</p>
+              </div>
+                <div class="loading">
+                  <div id="sk2"></div>
+                </div>
+            </li>
+            <li>
+              <div class="box">
+                <div class="skillname">Python</div>
+                <p style="font-size: 22px;color: lightgrey;">80%</p>
+              </div>
+              <div class="loading">
+                <div id="sk3"></div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <div class="skillname">Word</div>
+                <p style="font-size: 22px;color: lightgrey;">95%</p>
+              </div>
+              <div class="loading">
+                <div id="sk4"></div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <div class="skillname">Java</div>
+                <p style="font-size: 22px;color: lightgrey;">70%</p>
+              </div>
+              <div class="loading">
+                <div id="sk5"></div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <div class="skillname">Excel</div>
+                <p style="font-size: 22px;color: lightgrey;">80%</p>
+              </div>
+              <div class="loading">
+                <div id="sk6"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <section class="card" id="pro">
+          <h2>Projects</h2>
+          <div class="slider_container1">
+           <div><img src="image/73880.jpg" style="width: 500px;"class="l_photo"/></div>
+           <div><img src="image/315220255_3387052521523939_6368926548761303244_n.jpg" style="width: 500px;"class="l_photo"/></div>
+           <div><img src="image/315107808_503671968356346_5323240260431283312_n.jpg" style="width: 500px;"class="l_photo"/></div> 
+           <div><img src="image/315147211_510053040835267_5817126074040164069_n.jpg" style="width: 500px;"class="l_photo"/></div> 
+          </div>
+          <ul class="prot">
+              <li>大一上-企業概論:蜜豐糖脆蛋糕 
+                <a href="https://www.instagram.com/fwyc_cycu/"><img src="image/ig.jpg" style="width: 20px;" ></a>
+              </li>
+              <li>大一下-管理學:淨灘台灣淨灘顧地球Taiwan-大園後厝港淨灘</li>
+          </ul>
+
+        </section>
+
+        <div class="bg1">
+          <section class="card" id="exp">
+            <h2>Experiences</h2>
+            <div class="slideshow-container">
+              <div class="ex.p" style="display: block;">
+                <img src="image/73896.jpg" style="width:100%"> 
+              </div>
+              <div class="ex.p" style="display: none;">
+                <img src="image/73895.jpg" style="width:100%">
+              </div>
+              <div class="ex.p" style="display: none;">
+               <img src="image/LINE_ALBUM_221106.jpg" style="width:100%">
+              </div>
+              <div class="ex.p" style="display: none;">
+               <img src="image/LINE_ALBUM_221107.jpg" style="width:100%">
+              </div>
+              <div class="ex.p" style="display: none;">
+                <img src="image/LINE_ALBUM_221108.jpg" style="width:100%">
+              </div>
+              <div class="ex.p" style="display: none;">
+                <img src="image/LINE_ALBUM_221109.jpg" style="width:100%">
+              </div>
+              <div class="ex.p" style="display: none;">
+                <img src="image/LINE_ALBUM_2211010.jpg" style="width:100%">
+              </div>
+          
+
+<!--下面點點-->
+              <div style="text-align:center">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+              </div>
+             <script>        
+               var slideIndex = 1;
+               showSlides(slideIndex);
+              
+               function plusSlides(n) {
+                showSlides(slideIndex += n);
+               }
+              
+               function currentSlide(n) {
+                showSlides(slideIndex = n);
+               }
+              
+               function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("ex.p");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+          
+              </script>
+            </div>
+            <div style="text-align:center;">
+             <p>高中是新北韓研舞教</p>
+             <p>參加k-pop up 比賽榮獲第一名及最佳人氣獎</p>
+             <p>還參與了各種校內校外的舞台</p>
+             <ul class="timeline1">
+               <a href="https://www.youtube.com/channel/UCjuay-iG9CGH8je-OZfG3xw/videos" target="_blank">
+                 <img src="image/video-youtube-icon-27.png"class="pic" style="height: 50px ;width: 45px; ">
+                 <p style="color: white;">成發</p>
+                </a>
+                <a href="https://www.youtube.com/watch?v=xGzHotOYyWo&list=LL&index=31" target="_blank">
+                  <img src="image/video-youtube-icon-27.png"class="pic" style="height: 50px ; width: 45px;;">
+                  <p style="color: white;">第一名拍攝mv</p>
+                </a>
+              </ul>
+            </div>
+          </section>
+
+          <section class="card" >
+           <h2>Experiences</h2>
+           <div class="slideshow-container">
+              <div class="cycuhd" style="display: block;">
+                <img src="image/73838.jpg" style="width:100%"> 
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73976.jpg" style="width:100%">
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73887.jpg" style="width:100%">
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73888.jpg" style="width:100%">
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73840.jpg" style="width:100%">
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73855.jpg" style="width:100%">
+              </div>
+              <div class="cycuhd" style="display: none;">
+                <img src="image/73885.jpg" style="width:100%">
+              </div>
+          
+
+<!--下面點點-->
+              <div style="text-align:center">
+                <span class="dot1 active" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+                <span class="dot1" onclick="currentSlide1(4)"></span>
+                <span class="dot1" onclick="currentSlide1(5)"></span>
+                <span class="dot1" onclick="currentSlide1(6)"></span>
+                <span class="dot1" onclick="currentSlide1(7)"></span>
+              </div>
+              <script>       
+               var slideIndex = 1;
+               showSlides1(slideIndex);
+              
+               function plusSlides(n) {
+                showSlides1(slideIndex += n);
+               }
+              
+               function currentSlide1(n) {
+                showSlides1(slideIndex = n);
+               }
+              
+               function showSlides1(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("cycuhd");
+                  var dots = document.getElementsByClassName("dot1");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active1", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active1";
+                }
+              </script>
+            </div>
+            <div style="text-align:center;">
+              <p>大學是中原熱舞社G組和H組的成員</p>
+              <p>參與了各種校內校外的舞台</p>
+              <a href="https://www.youtube.com/channel/UCCQ3hpuPXthTaSN9k3njUIQ/videos" target="_blank">
+                <img src="image/video-youtube-icon-27.png"class="pic" style="height: ;50px ; width: 45px;">
+                <p style="color: white;">各類成發</p>
+              </a>
+            </div>
+          </section>
+      
+          <section class="card" >
+            <h2>Experiences</h2>
+            <div class="slideshow-container">
+              <div class="other" style="display: block;">
+                <img src="image/73902.jpg" style="width:100%"> 
+              </div>
+              <div class="other" style="display: none;">
+               <img src="image/73897.jpg" style="width:100%;height: 50%;">
+              </div>
+              <div class="other" style="display: none;">
+                <img src="image/73898.jpg" style="width:100%">
+              </div>
+              <div class="other" style="display: none;">
+                <img src="image/73899.jpg" style="width:100%">
+              </div>
+              <div class="other" style="display: none;">
+                <img src="image/73900.jpg" style="width:100%">
+              </div>
+              <div class="other" style="display: none;">
+                <img src="image/73901.jpg" style="width:100%">
+              </div>
+              <div class="other" style="display: none;">
+                <img src="image/73903.jpg" style="width:100%">
+              </div>
+          
+
+<!--下面點點-->
+              <div style="text-align:center">
+                <span class="dot2 active" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlide2(3)"></span>
+                <span class="dot2" onclick="currentSlide2(4)"></span>
+                <span class="dot2" onclick="currentSlide2(5)"></span>
+                <span class="dot2" onclick="currentSlide2(6)"></span>
+                <span class="dot2" onclick="currentSlide2(7)"></span>
+              </div>
+              <script>       
+               var slideIndex = 1;
+               showSlides2(slideIndex);
+              
+               function plusSlides(n) {
+                 showSlides2(slideIndex += n);
+               }
+              
+               function currentSlide2(n) {
+                 showSlides2(slideIndex = n);
+               }
+              
+               function showSlides2(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("other");
+                  var dots = document.getElementsByClassName("dot2");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active2", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active2";
+                }
+              </script>
+            </div>
+            <div style="text-align:center ;">
+              <p>從3歲習舞，上過各類舞台</p>
+              <p>還曾至總統府表演及多年新北市政府元宵燈會舞台等</p>
+              <a href="https://www.facebook.com/oyhcdance"target="_blank">
+                <img src="image/fb.jpg" class="pic" style="height: ;50px ; width: 45px;">
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <section class="card" id="bg">
+          <h2>Background</h2>
+          <section class="school">
+            <a href="http://www.jyes.ntpc.edu.tw/" target="_blank">
+              <img src="image/logo-scs-key510054.png" class="zoom"style="width: 150px; height: 100px; 
+              top: 350px;">
+            </a>
+            <a href="https://www.grjh.ntpc.edu.tw/" target="_blank">
+              <img src="image/a3fddf4d3a9f2901bf35ea04643578e2599e6d1b.jpeg" class="zoom"style="width: 100px; height: 100px; 
+              top: 350px;border-radius:50%">
+            </a>
+            <a href="https://www.ntsh.ntpc.edu.tw/" target="_blank">
+              <img src="image/Scsh.gif" class="zoom"style="width: 100px; height: 100px; 
+              top: 350px;border-radius:50%">
+            </a>
+            <a href="https://www1.cycu.edu.tw" target="_blank">
+              <img src="image/cycu.png" class="zoom"style="width: 100px; height: 100px; 
+              top: 350px;">
+              </a>
+          </section>
+          <div class="time">
+            <ul class="timeline">
+              <li> 正義國小</li><br>
+              <li> 光榮國中</li><br>
+              <li> 新北高中</li><br>
+              <li> 中原大學</li>
+            </ul>
+          </div>
+        </section>
+
+       <div class="picspace">
+          <img src="image/73857.jpg" alt="pic1" class="picimg">
+          <img src="image/73879.jpg" alt="pic2" class="picimg">
+          <img src="image/73884.jpg" alt="pic3" class="picimg">
+          <img src="image/LINE_ALBUM_221105.jpg" alt="pic4" class="picimg">
+          <img src="image/73871.jpg" alt="pic5" class="picimg">
+          <img src="image/73882.jpg" alt="pic6" class="picimg">
+          <img src="image/73894.jpg" alt="pic7" class="picimg">
+          <img src="image/73892.jpg" alt="pic8" class="picimg">
+          <img src="image/73857.jpg" alt="pic1" class="picimg">
+          <img src="image/73879.jpg" alt="pic2" class="picimg">
+          <img src="image/73884.jpg" alt="pic3" class="picimg">
+       </div>
+      </article>
+
+    </main>
+    <div class="clearfx"></div>
+
+    <footer>
+      <h5>contact me.</h5>
+      <h5>Email || awe20424awe@gmail.com</h5>
+      <h5>Copyrgiht @ 2022 w.yx</h5>
+      <a href="https://www.facebook.com/profile.php?id=100002670874548" target="_blank">
+        <img src="image/fb.jpg" class="pic" style="height: ;50px ; width: 50px; ">
+      </a>
+      <a href="https://www.instagram.com/w.yx__0630/">
+        <img src="image/ig.jpg" class="pic" style="height: ;50px ; width: 45px; ">
+      </a>
+    </footer>
+  </body>
+</html>
